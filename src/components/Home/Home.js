@@ -1,11 +1,5 @@
 import React from "react";
 // import img from "./teaTree.jpg";
-// import Reviews from "./components/Reviews/Reviews";
-// import DashBoard from "./components/DashBoard/DashBoard";
-// import Blogs from "./components/Blogs/Blogs";
-// import About from "./components/About/About";
-// import NotFound from "./components/NotFound/NotFound";
-// import Navbar from "./components/Navbar/Navbar";
 
 const Home = () => {
     return (

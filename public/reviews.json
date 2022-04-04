@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Fahima Bushra",
+        "review": "Best oil.I like it",
+        "rating": 5
+    },
+    {
+        "name": "Farhana Tasnim",
+        "review": "awesome.My hair become shiny",
+        "rating": 4.5
+    },
+    {
+        "name": "Fatima Arifeen",
+        "review": "I just love it",
+        "rating": 5
+    },
+    {
+        "name": "jerin",
+        "review": "Good product.But expensive",
+        "rating": 3.5
+    },
+    {
+        "name": "julie",
+        "review": "I use it twice in a week",
+        "rating": 4.5
+    },
+    {
+        "name": "Maliha",
+        "review": "My hair becomes shiny but it causes my hairfall",
+        "rating": 3
+    }
+]
