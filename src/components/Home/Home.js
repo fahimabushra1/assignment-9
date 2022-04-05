@@ -1,9 +1,10 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 // import img from "./teaTree.jpg";
 
 
 const Home = () => {
-  
+    const navigate = useNavigate();
 
 
     return (
@@ -13,8 +14,9 @@ const Home = () => {
                 <p>If you want healthy natural growing hair Tea tree is the only solution for you.It is the number one oil for smiling hair.</p>
                 {/* <img src={img}></img> */}
             </div>
-            <div className="mt-8">
-                <h3>Customer Reviews (3)</h3>
+            <div className="mt-32 text-center">
+                <h3 className="font-bold text-4xl">Customer Reviews (3)</h3>
+                <button className="text-xl mt-16 p-2 rounded bg-gradient-to-r from-yellow-400 via-lime-300 to-amber-400" onClick={() => navigate('/reviews')}>see all reviews</button>
 
             </div>
         </div>
