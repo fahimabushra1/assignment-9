@@ -1,5 +1,5 @@
 import React from "react";
-import { Line, LineChart, XAxis, YAxis, Bar, BarChart } from "recharts";
+import { Line, LineChart, XAxis, YAxis, Legend, Bar, BarChart } from "recharts";
 
 const DashBoard = () => {
     const data =
@@ -45,9 +45,10 @@ const DashBoard = () => {
     return (
         <div className="flex justify-between my-12">
             <LineChart width={500} height={300} data={data}>
-                <Line type={"monotone"} dataKey={'sell'} stroke="#8884d8"></Line>
+                <Line type={"monotone"} dataKey={'sell'} activeDot={{ r: 8 }} stroke="#8884d8"></Line>
                 <XAxis dataKey="month"></XAxis>
                 <YAxis dataKey="investment"></YAxis>
+                <Legend />
             </LineChart>
             <div>
                 <BarChart width={600} height={300} data={data}>
