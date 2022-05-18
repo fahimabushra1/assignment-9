@@ -43,7 +43,7 @@ const DashBoard = () => {
             }
         ]
     return (
-        <div className="flex justify-between my-12">
+        <div className="md:flex justify-between my-12 sm:w-screen">
             <LineChart width={500} height={300} data={data}>
                 <Line type={"monotone"} dataKey={'sell'} activeDot={{ r: 8 }} stroke="#8884d8"></Line>
                 <XAxis dataKey="month"></XAxis>

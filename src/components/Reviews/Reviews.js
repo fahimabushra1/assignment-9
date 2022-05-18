@@ -7,7 +7,7 @@ const Reviews = () => {
     const [products, setProducts] = useProducts()
 
     return (
-        <div className="grid grid-cols-3 gap-4">
+        <div className="md:grid grid-cols-3 gap-4 text-center">
             {
                 products.map(product => <ReviewItem
                     key={product.id}
